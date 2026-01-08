@@ -1,0 +1,21 @@
+name: Sync labels to BE/FE
+
+on:
+  push:
+    paths:
+      - ".github/labels.yml"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Label Sync
+        uses: srealmoreno/label-sync-action@v2
+        with:
+          token: ${{ secrets.LABEL_SYNC_TOKEN }}
+          repositories: |
+            100-hours-a-week/16-team-katopia-be
+            100-hours-a-week/16-team-katopia-fe
