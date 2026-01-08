@@ -1,0 +1,11 @@
+- name: bug
+  color: d73a4a
+  description: Something isn't working
+
+- name: feature
+  color: a2eeef
+  description: New feature
+
+- name: documentation
+  color: 0075ca
+  description: Docs changes
