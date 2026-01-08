@@ -1,11 +1,68 @@
-- name: bug
+- name: Bug
+  color: e4e669
+  description: 버그, 기능 이슈, 기능은 동작하지만 기획대로 동작하지 않을 때,
+
+- name: Critical
   color: d73a4a
-  description: Something isn't working
+  description: 긴급, 망함, 큰일남, 수정필요, 빨리고쳐야함, 아예 기능 자체가 동작하지 않거나 페이지가 다운될 때
 
-- name: feature
-  color: a2eeef
-  description: New feature
+- name: Deploy
+  color: 89f71c
+  description: 배포, CI/CD, GITHUB ACTION
 
-- name: documentation
-  color: 0075ca
-  description: Docs changes
+- name: Feature
+  color: f1be87
+  description: 기능 개발, 새로운 기능 개발, 기능 추가, 신기능 추가,
+  
+- name: Halp me!!!
+  color: 008672
+  description: 도와줘요, 모르겠어요, 모르겠다, 몰라,
+  
+- name: Meet
+  color: f6dc51
+  description: PM/PL 미팅, 멘토링, 팀 회의
+  
+- name: Refactor
+  color: 6e6ac5
+  description: 기능 개선, 수정, 리펙토링, 리펙터, 코드 수정,
+  
+- name: Style
+  color: fce13a
+  description: 피그마, 디자인, 스타일
+  
+- name: ☁️ Cloud
+  color: f6d6e4
+  description: 클라우드, CLOUD, 인프라, 데브옵스, DEVOPS, AWS, GITHUB ACTION,
+  
+- name: ⚙️ BE
+  color: c2e0c6
+  description: 백엔드, BE, 풀스택
+  
+- name: 🌐 FE
+  color: 1d76db
+  description: 프런트, 프런트엔드, FE, 풀스택
+  
+- name: 💡 제안
+  color: 7057ff
+  description: 기능 제안, 의견, 추가 의견, 추가 기획,
+
+- name: 📄 Docs
+  color: 927e67
+  description: 문서, 스크럼, 스프린트,
+
+
+- name: 📦 백로그
+  color: 88cc97
+  description: 백로그, 스프린트 백로그, 프러덕트 백로그,
+
+
+
+- name: 🧩 All
+  color: 1f022d
+  description: 전체, 공지, 팀, 공통,
+
+
+
+
+
+  
