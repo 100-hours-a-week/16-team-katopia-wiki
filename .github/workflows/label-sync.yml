@@ -18,3 +18,10 @@ jobs:
           token: ${{ secrets.LABEL_SYNC_TOKEN }}
           repositories: |
             100-hours-a-week/16-team-katopia-be
+      - name: PAT smoke test (create label in BE)
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.LABEL_SYNC_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/100-hours-a-week/16-team-katopia-be/labels \
+            -d '{"name":"_pat_smoke_test","color":"ededed"}'
