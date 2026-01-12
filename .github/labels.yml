@@ -20,7 +20,7 @@
 
 - name: Meet
   color: "f6dc51"
-  description: PM/PL 미팅, 멘토링, 팀 회의
+  description: PM/PL 미팅, 멘토링, 팀 회의,
 
 - name: Refactor
   color: "6e6ac5"
