@@ -57,8 +57,3 @@
 - name: 🧩 All
   color: "1f022d"
   description: 전체, 공지, 팀, 공통,
-
-
-- name: test태그123
-  color: "1f022d"
-  description: test태그
