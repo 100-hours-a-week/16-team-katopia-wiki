@@ -1,7 +1,7 @@
 ---
 name: PM 미팅 사전 작성 문서
 about: PM 미팅 사전에 작성해야 하는 문서입니다.
-title: ''
+title: "[PM 미팅] "
 labels: Meet
 assignees: ''
 

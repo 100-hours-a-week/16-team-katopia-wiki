@@ -1,9 +1,9 @@
 ---
 name: Daily-Scrum-Template
 about: 데일리 스크럼 템플릿
-title: ''
+title: "[스크럼] "
 labels: 데일리-스크럼
-assignees: ''
+assignees: brixxt27
 
 ---
 

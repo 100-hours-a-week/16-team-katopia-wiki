@@ -1,7 +1,7 @@
 ---
 name: Meeting-Minutes-Template
 about: 회의록 템플릿입니다.
-title: ''
+title: "[Meeting] "
 labels: ''
 assignees: ''
 
