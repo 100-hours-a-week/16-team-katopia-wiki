@@ -21,7 +21,7 @@
 
 - name: ⚙️ BE
   color: "c2e0c6"
-  description: 백엔드, BE, 풀스택
+  description: 백엔드, BE, 풀스택, FE
 
 - name: ☁️ Cloud
   color: "f6d6e4"
