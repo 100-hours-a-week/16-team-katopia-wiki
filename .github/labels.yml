@@ -34,6 +34,10 @@
 - name: Feature
   color: "f1be87"
   description: 기능 개발, 새로운 기능 개발, 기능 추가, 신기능 추가,
+  
+- name: Chore
+  color: "f6dc51"
+  description: 개발 환경 개선, 로그, 모니터링,
 
 - name: Refactor
   color: "6e6ac5"
